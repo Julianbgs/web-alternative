@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.svg") format("svg");
+  font-weight: 400;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+textarea:hover,
+textarea:focus,
+textarea:active {
+  outline: none;
+}
+
+.container {
+  *zoom: 1;
+}
+
+.container:after {
+  content: '';
+  display: table;
+  line-height: 0;
+  clear: both;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 768px;
+  }
+}
+
+.main {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.main__title {
+  color: #010101;
+  font-family: "PlayfairDisplay";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.main__title:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 420px;
+  height: 2.5px;
+  background-color: black;
+  top: 50px;
+  right: 60px;
+}
+
+.main__layer-wrap {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 700px;
+  height: 455px;
+  margin-top: 20px;
+}
+
+.main__layer-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.main__date {
+  position: absolute;
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
