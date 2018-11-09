@@ -291,6 +291,10 @@ textarea:active {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .main__first-img-wrap {
@@ -330,13 +334,15 @@ textarea:active {
   position: relative;
   float: left;
   width: 100%;
+  background-color: #fbf6e8;
+  display: none;
 }
 
 .main__advertising-wrap {
   position: relative;
   float: left;
   width: 159px;
-  height: 150px;
+  height: 130px;
   overflow: hidden;
 }
 
@@ -345,6 +351,41 @@ textarea:active {
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.main__advertising-description {
+  position: relative;
+  width: 100%;
+  color: #bebebe;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  left: 20px;
+  top: 10px;
+}
+
+.main__advertising-title {
+  position: relative;
+  width: 100%;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  left: 20px;
+  top: 10px;
+}
+
+.main__advertising-sub-title {
+  position: relative;
+  width: 100%;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  left: 20px;
+  top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
