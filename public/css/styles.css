@@ -1,4 +1,62 @@
 @font-face {
+  font-family: "Noto Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Noto Sans Italic"), local(NotoSans-Italic), url(//fonts.gstatic.com/s/notosans/v7/o-0OIpQlx3QUlC5A4PNr4ARCQ_0.eot?#) format("eot"), url(//fonts.gstatic.com/s/notosans/v7/o-0OIpQlx3QUlC5A4PNr4ARCQ_k.woff2) format("woff2"), url(//fonts.gstatic.com/s/notosans/v7/o-0OIpQlx3QUlC5A4PNr4ARCQ_8.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Noto Sans Bold Italic"), local(NotoSans-BoldItalic), url(//fonts.gstatic.com/s/notosans/v7/o-0TIpQlx3QUlC5A4PNr4Az5ZuyDzWk.eot?#) format("eot"), url(//fonts.gstatic.com/s/notosans/v7/o-0TIpQlx3QUlC5A4PNr4Az5ZuyDzW0.woff2) format("woff2"), url(//fonts.gstatic.com/s/notosans/v7/o-0TIpQlx3QUlC5A4PNr4Az5ZuyDzWs.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans"), local(NotoSans), url(//fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRE.eot?#) format("eot"), url(//fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format("woff2"), url(//fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRG.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans Bold"), local(NotoSans-Bold), url(//fonts.gstatic.com/s/notosans/v7/o-0NIpQlx3QUlC5A4PNjXhFVZNyF.eot?#) format("eot"), url(//fonts.gstatic.com/s/notosans/v7/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2) format("woff2"), url(//fonts.gstatic.com/s/notosans/v7/o-0NIpQlx3QUlC5A4PNjXhFVZNyH.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Noto Serif Italic"), local(NotoSerif-Italic), url(//fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC_.eot?#) format("eot"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7.woff2) format("woff2"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC9.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Noto Serif Bold Italic"), local(NotoSerif-BoldItalic), url(//fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VI.eot?#) format("eot"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VM.woff2) format("woff2"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VK.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Serif"), local(NotoSerif), url(//fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWbA.eot?#) format("eot"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaA.woff2) format("woff2"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWbg.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Serif Bold"), local(NotoSerif-Bold), url(//fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReedQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReecQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReedw.woff) format("woff");
+}
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+
+@font-face {
   font-family: 'PlayfairDisplay';
   src: url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/PlayfairDisplay/PlayfairDisplayRegular.svg") format("svg");
   font-weight: 400;
@@ -129,6 +187,18 @@ textarea:active {
   margin-top: 20px;
 }
 
+.main__layer-wrap:after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("../img/icons/arrow.png");
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 15px;
+  bottom: 0;
+  right: 46%;
+}
+
 .main__layer-wrap img {
   width: 100%;
   height: 100%;
@@ -139,6 +209,142 @@ textarea:active {
 .main__date {
   position: absolute;
   display: block;
+  z-index: 1;
+  width: 160px;
+  height: 104px;
+  top: 110px;
+  left: 30px;
+  background-color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  opacity: 0.8;
+}
+
+.main__date-number {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: "Noto Serif", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 36px;
+  margin-top: 25px;
+}
+
+.main__date-number:after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("../img/icons/black-arrow.png");
+  background-repeat: no-repeat;
+  width: 3px;
+  height: 5px;
+  top: 12px;
+  right: 20px;
+}
+
+.main__date-description {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: "Noto Serif", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.main__description {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: black;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.main__author {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #acacac;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.main__first-img-wrapper {
+  position: relative;
+  float: left;
+  width: 73%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main__first-img-wrap {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 104px;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.main__first-img-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.main__adidas-wrap {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 220px;
+  overflow: hidden;
+  right: 5px;
+}
+
+.main__adidas-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.main__advertising {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.main__advertising-wrap {
+  position: relative;
+  float: left;
+  width: 159px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.main__advertising-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=styles.css.map */
