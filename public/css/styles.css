@@ -564,6 +564,11 @@ textarea:active {
   }
 }
 
+.main__first-img-wrap:nth-of-type(21) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+}
+
 @media (max-width: 480px) {
   .main__first-img-wrap:nth-of-type(21) {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

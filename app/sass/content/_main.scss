@@ -339,6 +339,7 @@
     }
 
     &:nth-of-type(21){
+      opacity: 0;
       @include breakpoint(max-width 480px){
         opacity: 0;
       }
